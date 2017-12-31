@@ -4,13 +4,13 @@ import static org.junit.Assert.*;
 
 public class testTest {
 
-    @Test
-    public void t() {
-        assertEquals(1,1);
-    }
+
+    test a = new test();
 
     @Test
-    public void t2() {
-        assertEquals(2,2);
+    public void t() {
+        assertEquals(1,a.t(1));
     }
+
+
 }

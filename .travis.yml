@@ -71,13 +71,13 @@ android:
     - tools
     - platform-tools
     - tools
-    - build-tools-26.1.1
+    - build-tools-26.0.1
     - android-26
     - extra-android-m2repository
-    - sys-img-armeabi-v7a-android-23
+    - sys-img-armeabi-v7a-android-26
     - extra-android-support
   licenses:
-    - android-sdk-preview-license-d56f5187479451eabf01fb78af6dfcb131a6481e
+    - android-sdk-preview-license-52d11cd2
     - android-sdk-license-.+
     - google-gdk-license-.+
 
@@ -87,4 +87,4 @@ script:
 - ./gradlew build
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash)

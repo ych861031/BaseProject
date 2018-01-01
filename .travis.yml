@@ -3,7 +3,7 @@ sudo: false
 jdk: oraclejdk8
 os:
   - macos
-  - windows
+#  - windows
 android:
   components:
     - platform-tools
@@ -49,7 +49,7 @@ before_install:
   - chmod +x gradlew
 
 before_script:
-  - echo no | android create avd --force -n test -t (ListView) findViewById(android.R.id.list) --abi $ANDROID_ABI
+#  - echo no | android create avd --force -n test -t (ListView) findViewById(android.R.id.list) --abi $ANDROID_ABI
   - emulator -avd test -no-skin -no-audio -no-window &
 
 script:

@@ -77,7 +77,7 @@ android:
     - sys-img-armeabi-v7a-android-26
     - extra-android-support
   licenses:
-    - android-sdk-preview-license-52d11cd2
+#    - android-sdk-preview-license-52d11cd2
     - android-sdk-license-d56f5187479451eabf01fb78af6dfcb131a6481e
     - google-gdk-license-.+
 

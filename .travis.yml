@@ -85,12 +85,13 @@ before_script:
 - chmod +x ./gradlew
 script:
 - ./gradlew build
-- ./gradlew build jacocoTestReport assembleAndroidTest
+#- ./gradlew build jacocoTestReport
 #- ./gradlew connectedCheck
 
 after_success:
-- echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
-- emulator -avd test -no-skin -no-audio -no-window &
-- android-wait-for-emulator
-- ./gradlew connectedCheck
+#- echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
+#- emulator -avd test -no-skin -no-audio -no-window &
+#- android-wait-for-emulator
+#- ./gradlew connectedCheck
+- ./gradlew build jacocoTestReport
 - bash <(curl -s https://codecov.io/bash)

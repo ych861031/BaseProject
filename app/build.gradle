@@ -14,6 +14,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
+
     buildTypes {
         release {
             minifyEnabled false
@@ -21,12 +22,7 @@ android {
         }
         debug {
             testCoverageEnabled true
-        }
-        jacocoTestReport {
-            reports {
-                xml.enabled true
-                html.enabled false
-            }
+
         }
 
     }

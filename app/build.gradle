@@ -20,14 +20,14 @@ android {
         debug {
             testCoverageEnabled true
         }
-
-    }
-    jacocoTestReport {
-        reports {
-            xml.enabled true
-            html.enabled false
+        jacocoTestReport {
+            reports {
+                xml.enabled true
+                html.enabled false
+            }
         }
     }
+
 
 
 }

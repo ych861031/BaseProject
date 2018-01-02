@@ -20,11 +20,11 @@ android {
         debug {
             testCoverageEnabled true
         }
-        jacocoAndroidUnitTestReport {
-            csv.enabled false
-            html.enabled true
-            xml.enabled true
-        }
+//        jacocoAndroidUnitTestReport {
+//            csv.enabled false
+//            html.enabled true
+//            xml.enabled true
+//        }
     }
 }
 

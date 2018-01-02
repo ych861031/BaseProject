@@ -22,10 +22,8 @@ android {
         }
         jacocoTestReport {
             reports {
-//                xml.enabled true
-//                html.enabled false
-                excludes += ['**/AutoValue_*.*',
-                             '**/*JavascriptBridge.class']
+                xml.enabled true
+                html.enabled false
             }
         }
     }

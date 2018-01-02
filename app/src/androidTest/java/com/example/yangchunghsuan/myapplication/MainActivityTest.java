@@ -9,11 +9,11 @@ import static org.junit.Assert.*;
  */
 public class MainActivityTest {
 
-    MainActivity a = new MainActivity();
-
-    @Test
-    public void t() throws Exception {
-        assertEquals(1,a.t(1));
-    }
+//    MainActivity a = new MainActivity();
+//
+//    @Test
+//    public void t() throws Exception {
+//        assertEquals(1,a.t(1));
+//    }
 
 }

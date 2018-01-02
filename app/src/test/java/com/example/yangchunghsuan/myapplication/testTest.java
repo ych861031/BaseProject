@@ -9,14 +9,15 @@ import static org.junit.Assert.*;
  * Created by yangchunghsuan on 2018/1/2.
  */
 public class testTest {
+    test a;
     @Before
     public void setUp() throws Exception {
-        test a = new test();
+        a = new test();
     }
 
     @Test
     public void t() throws Exception {
-        assertEquals(1,1);
+        assertEquals(1,a.t(1));
     }
 
 }

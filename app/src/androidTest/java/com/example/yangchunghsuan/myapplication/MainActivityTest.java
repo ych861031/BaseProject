@@ -8,12 +8,12 @@ import static org.junit.Assert.*;
  * Created by yangchunghsuan on 2018/1/1.
  */
 public class MainActivityTest {
-
-
-
     @Test
-    public void t() throws Exception {
+    public void t1() throws Exception {
         assertEquals(1,1);
     }
+
+
+
 
 }
